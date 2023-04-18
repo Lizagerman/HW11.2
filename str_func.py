@@ -1,7 +1,2 @@
-function getCapitals(text) {
-if (text == text.toLowerCase()) {
-  return []
-}
- 
-return [text.match(/[A-Z]/g).join(' , ')]
-}
+def fnc_upper(s):
+    return s.upper()
